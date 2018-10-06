@@ -7,3 +7,8 @@
         b)git lfs track "*.pdf"(pdf文件)
         c)git add .gitattributes(跟踪大文件)
         d).....
+
+
+//git忽略文件,删除远程仓库文件操作(不删除本地文件)//
+git rm -r --cached .idea
+git rm --cached .idea/misc.xml
