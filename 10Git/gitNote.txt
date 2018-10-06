@@ -7,8 +7,21 @@
         b)git lfs track "*.pdf"(pdf文件)
         c)git add .gitattributes(跟踪大文件)
         d).....
+////////////////////////////////////////////////////////////////
+
+//git忽略文件//
+.gitignore
+内容例如：
+/.idea/
+/part00-common/target/
+/part01-lambda/target/
+
+////////////////////////////////////////////////////////////////
 
 
-//git忽略文件,删除远程仓库文件操作(不删除本地文件)//
-git rm -r --cached .idea
-git rm --cached .idea/misc.xml
+//git删除远程仓库文件操作(不删除本地文件)//
+git rm -r --cached .idea（文件夹）/git rm --cached .idea/misc.xml（具体文件）
+git commit -m "delete target/"
+git push origin master
+
+////////////////////////////////////////////////////////////////
