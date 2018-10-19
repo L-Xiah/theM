@@ -1,3 +1,5 @@
 
 //--------
-
+Html Jsp
+html(hypertext markup language)
+jsp(java server page)
