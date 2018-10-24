@@ -3,3 +3,31 @@
 Html Jsp
 html(hypertext markup language)
 jsp(java server page)
+
+
+
+
+
+#########软件使用列表###########
+开发：
+Java(jvm + jre + jdk)
+IntelliJ Idea
+eclipse
+Tomcat
+Visual Studio 2012
+
+数据库：
+MySQL
+
+通信：
+SiPHD(EMS)
+
+代码管理：
+git
+git lfs
+TortoiseGit
+TortoiseSVN
+
+
+
+
