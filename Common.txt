@@ -7,6 +7,8 @@
 
 
 #########CMD操作###########
+Win + R //打开CMD
+
 //转到当前目录的cmd下
 按“shift” + “鼠标右键”-〉点击“在此处打开命令窗口”
 
@@ -18,6 +20,9 @@ cmd执行如下命令：copy/b 123.jpg + 123.rar = 456.jpg
 netstat -ano //端口--PID
 tasklist  //PID--程序名
 
+mspaint //画图
+calc  //计算器
+notepad //记事本
 
 
 
@@ -29,6 +34,8 @@ Ctrl + H（全局搜索）
 Ctrl + F（查找）
 Ctrl + D（删除）
 Ctrl + /（行注释）
+
+Ctrl + Tab(切换标签)
 
 Ctrl + Shift + /（选中注释）
 Ctrl + Shift + R（查文件）
@@ -46,6 +53,29 @@ Shift+Shift（任意搜索）
 /** + Enter(添加方法注释文档--javadoc文档)
 
 Idea中容易触发拼音全角(特别要注意全角的空格)
+
+
+#########Windows快捷键###########
+
+文本定位:Home、End、Ctrl + Home（定位到文档起始处）、Ctrl + End（定位到文档结束处）、PgUp、PgDn
+文本选中:Shift + 方向键/Home/End
+
+
+Alt + 菜单栏首个字母（单击该菜单栏位置）
+Alt + Enter （文件属性对话框）
+Alt + ←（回退目录）
+Alt + ↑（上级目录）
+Alt + F4 （关闭当前窗口）
+
+Ctrl + S/Z/P/X/C/V （保存/回退/打印/剪切/复制/黏贴）
+Ctr + F4 （关闭软件内部的标签页；关闭窗口中的窗口）
+Ctrl + Shift（切换输入法）
+
+Shift + space（全/半角）
+Shift + F10 (右键)
+
+Win + R/D （CMD/桌面）
+Win/Alt + Tab (切换窗口)
 
 
 #########软件使用列表###########
