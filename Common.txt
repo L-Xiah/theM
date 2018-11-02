@@ -28,11 +28,14 @@ notepad //记事本
 
 #########eclipse常用快捷键###########
 eclipse常用快捷键(Idea可以设置使用eclipse快捷键)
+Ctrl + F2 （stop项目）
+
 Ctrl + Z（撤销/回退）
 Ctrl + I（格式化对齐）
 Ctrl + H（全局搜索）
 Ctrl + F（查找）
 Ctrl + D（删除）
+Ctrl + N（右键效果？）
 Ctrl + /（行注释）
 
 Ctrl + Tab(切换标签)
@@ -40,7 +43,9 @@ Ctrl + Tab(切换标签)
 Ctrl + Shift + /（选中注释）
 Ctrl + Shift + R（查文件）
 Ctrl + Shift + T（查类）
+Ctrl + Shift + B（断点添加/清除）
 
+Alt + F1（定位文件在Project的位置）
 Alt + D（复制）
 Alt + ↑↓（上下移动）
 Alt + →←（上次光标位置）
@@ -51,6 +56,8 @@ Alt + Shift + R（重命名）
 Shift+Shift（任意搜索）
 
 /** + Enter(添加方法注释文档--javadoc文档)
+
+F8->调试运行到下一个断点
 
 Idea中容易触发拼音全角(特别要注意全角的空格)
 
