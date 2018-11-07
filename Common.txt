@@ -28,7 +28,6 @@ notepad //记事本
 
 #########eclipse常用快捷键###########
 eclipse常用快捷键(Idea可以设置使用eclipse快捷键)
-Ctrl + F2 （stop项目）
 
 Ctrl + Z（撤销/回退）
 Ctrl + I（格式化对齐）
@@ -37,8 +36,6 @@ Ctrl + F（查找）
 Ctrl + D（删除）
 Ctrl + N（右键效果？）
 Ctrl + /（行注释）
-
-Ctrl + Tab(切换标签)
 
 Ctrl + Shift + /（选中注释）
 Ctrl + Shift + R（查文件）
@@ -52,6 +49,12 @@ Alt + →←（上次光标位置）
 Alt + /（提示补充）
 
 Alt + Shift + R（重命名）
+Alt + Shift + D（调试运行项目）
+Alt + Shift + X（运行项目）
+Alt + F1 （定位到project）
+Ctrl + F2 （stop项目）
+
+
 
 Shift+Shift（任意搜索）
 
@@ -72,11 +75,13 @@ Alt + 菜单栏首个字母（单击该菜单栏位置）
 Alt + Enter （文件属性对话框）
 Alt + ←（回退目录）
 Alt + ↑（上级目录）
-Alt + F4 （关闭当前窗口）
+Alt + F4 （关闭当前窗口,关机）
 
 Ctrl + S/Z/P/X/C/V （保存/回退/打印/剪切/复制/黏贴）
 Ctr + F4 （关闭软件内部的标签页；关闭窗口中的窗口）
 Ctrl + Shift（切换输入法）
+Ctrl + Tab/PgUp/PgDn （切换窗口内的标签页）
+
 
 Shift + space（全/半角）
 Shift + F10 (右键)
