@@ -1,4 +1,5 @@
 
+#########tomcat操作###########
 //参考JavaWeb.docx中Tomcat章节
 tomcat发布、关闭：%tomcat路径%\bin\(startup.bat、shutdown.bat)
 tomcat发布项目：%tomcat路径%\webapps\(**.war、web项目文件夹)

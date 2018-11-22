@@ -1,0 +1,16 @@
+
+
+
+
+
+
+#########jar包依赖图###########
+参考：https://blog.csdn.net/daerzei/article/details/82344569
+显示Jar包依赖图
+1>打开Maven Project选项板（IDEA右侧菜单栏）
+2>选中所属项目
+3>点击Show Dependencies（选项板上部的菜单栏中）
+4>使用(Ctrl+鼠标滚轮)/(Alt+鼠标)-〉放大/缩小
+5>红色箭头线-〉表示jar包冲突（点击该jar包显示冲突）
+6>如果遇到程序启动报错显示两个jar包冲突（依赖图中没有红线），根据显示的jar包手动查找
+7>找到需要排除的jar包，右键"Exclude"会自动添加排除jar包代码
