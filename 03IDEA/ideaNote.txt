@@ -1,7 +1,8 @@
 
 
-
-
+#########idea升级###########
+idea升级之后（或许换编译器），
+需要重新设置java web项目的Modules(Sources、Resources；对应src/main下java/resources路径，webapp应该不需要配置)
 
 
 #########jar包依赖图###########
