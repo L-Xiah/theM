@@ -41,7 +41,8 @@ Alt + /（提示补充）
 Alt + Shift + R（重命名）
 Alt + Shift + D（调试运行项目）
 Alt + Shift + X（运行项目）
-Alt + F1 （定位到project）
+Alt + F1（定位到project）
+Alt + F9（Update调试项目，原快捷键Ctrl+F10与右键快捷键冲突，在idea中手动修改）
 Ctrl + 鼠标左键（单击文件标题-〉定位的物理文件）
 Ctrl + F2 （stop项目）
 Ctrl + Alt + K （commit页面）
@@ -74,6 +75,7 @@ Alt + Tab/Esc (切换窗口)
 Ctrl + S/Z/P/X/C/V/A （保存/回退/打印/剪切/复制/黏贴/全选）
 Ctr + F4 （关闭软件内部的标签页；关闭窗口中的窗口）
 Ctrl + Shift（切换输入法）
+Ctrl + Shift + N（新建文件夹）
 Ctrl + Tab/PgUp/PgDn （切换窗口内的标签页）
 
 
@@ -86,6 +88,7 @@ Win（显示或隐藏“开始”菜单）
 Win + R/D/E/F/U（CMD/桌面/我的电脑/搜索/工具管理器）
 Win + Tab (切换窗口)
 
+(win7里面选择一个文件（夹），F5刷新不会取消选择，选择2个或者2个以上的文件（夹），F5刷新会取消选择。)
 
 #########Win + R 命令###########
 %temp%	（打开临时文件夹）
