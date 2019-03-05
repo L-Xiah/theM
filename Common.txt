@@ -47,7 +47,7 @@ Ctrl + F2 （stop项目）
 Ctrl + Alt + K （commit页面）
 
 
-
+双击鼠标左键（文件编辑的标题）-〉除文件编辑页面的收缩/展开
 Shift+Shift（任意搜索）
 
 /** + Enter(添加方法注释文档--javadoc文档)
