@@ -1,0 +1,7 @@
+
+
+####Cookie####
+有些设置->会在浏览器的重启时去除
+在浏览器中-〉设置Cookie的例外网站（exception）
+console.log(document. cookie)->显示当前网页的cookie
+

@@ -1,4 +1,4 @@
-#########CMD操作(DOS命令)###########
+####CMD操作(DOS命令)####
 Win + R -〉cmd //打开CMD
 
 //转到当前目录的cmd下
@@ -10,11 +10,14 @@ cmd执行如下命令：copy/b 123.jpg + 123.rar = 456.jpg
 
 //端口--PID--程序名
 netstat -ano //端口--PID
+netstat -ano|findstr "1099" //端口1099--PID
 tasklist  //PID--程序名
+tasklist|findstr "260"//查找字符（一般用PID）
+TASKKILL关闭指定进程
 
 
 
-#########eclipse常用快捷键###########
+####eclipse常用快捷键####
 eclipse常用快捷键(Idea可以设置使用eclipse快捷键)
 
 Ctrl + Z（撤销/回退）
@@ -59,7 +62,7 @@ F8->调试运行到下一个断点
 Idea中容易触发拼音全角(特别要注意全角的空格)
 
 
-#########Windows快捷键###########
+####Windows快捷键####
 文本定位:Home、End、Ctrl + Home（定位到文档起始处）、Ctrl + End（定位到文档结束处）、PgUp、PgDn
 文本选中:Shift + 方向键/Home/End
 
@@ -90,7 +93,7 @@ Win + Tab (切换窗口)
 
 (win7里面选择一个文件（夹），F5刷新不会取消选择，选择2个或者2个以上的文件（夹），F5刷新会取消选择。)
 
-#########Win + R 命令###########
+####Win + R 命令####
 %temp%	（打开临时文件夹）
 .	（C:\DocumentsandSettings\用户名所在文件夹）
 ..	（C:\DocumentsandSettings）
