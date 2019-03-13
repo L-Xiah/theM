@@ -1,11 +1,11 @@
 
 
-#########idea升级###########
+####idea升级####
 idea升级之后（或许换编译器），
 需要重新设置java web项目的Modules(Sources、Resources；对应src/main下java/resources路径，webapp应该不需要配置)
 
 
-#########jar包依赖图###########
+####包依赖图####
 参考：https://blog.csdn.net/daerzei/article/details/82344569
 显示Jar包依赖图
 1>打开Maven Project选项板（IDEA右侧菜单栏）
@@ -15,3 +15,30 @@ idea升级之后（或许换编译器），
 5>红色箭头线-〉表示jar包冲突（点击该jar包显示冲突）
 6>如果遇到程序启动报错显示两个jar包冲突（依赖图中没有红线），根据显示的jar包手动查找
 7>找到需要排除的jar包，右键"Exclude"会自动添加排除jar包代码
+
+
+####IDEA注册码（Acrivation code；补丁:http://idea.lanyus.com/）####
+ThisCrackLicenseId-{ 
+“licenseId”:”ThisCrackLicenseId”, 
+“licenseeName”:”idea”, 
+“assigneeName”:”“, 
+“assigneeEmail”:”idea@163.com”, 
+“licenseRestriction”:”For This Crack, Only Test! Please support genuine!!!”, 
+“checkConcurrentUse”:false, 
+“products”:[ 
+{“code”:”II”,”paidUpTo”:”2099-12-31”}, 
+{“code”:”DM”,”paidUpTo”:”2099-12-31”}, 
+{“code”:”AC”,”paidUpTo”:”2099-12-31”}, 
+{“code”:”RS0”,”paidUpTo”:”2099-12-31”}, 
+{“code”:”WS”,”paidUpTo”:”2099-12-31”}, 
+{“code”:”DPN”,”paidUpTo”:”2099-12-31”}, 
+{“code”:”RC”,”paidUpTo”:”2099-12-31”}, 
+{“code”:”PS”,”paidUpTo”:”2099-12-31”}, 
+{“code”:”DC”,”paidUpTo”:”2099-12-31”}, 
+{“code”:”RM”,”paidUpTo”:”2099-12-31”}, 
+{“code”:”CL”,”paidUpTo”:”2099-12-31”}, 
+{“code”:”PC”,”paidUpTo”:”2099-12-31”} 
+], 
+“hash”:”2911276/0”, 
+“gracePeriodDays”:7, 
+"autoProlongated":false}
