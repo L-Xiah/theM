@@ -40,6 +40,7 @@ Alt + →←（上次光标位置）
 Alt + /（提示补充）
 Alt + 0-9（定位不同标签栏，Esc回到文件编辑界面）
 
+Alt + Insert（Generate生成-〉get/set方法、test测试、Override等）
 Alt + Shift + R（重命名）
 Alt + Shift + D（调试运行项目）
 Alt + Shift + X（运行项目）
