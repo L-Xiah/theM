@@ -1,0 +1,53 @@
+
+####命名规则####
+
+
+
+####变量/函数/类命名####
+总体原则-〉驼峰法、规则统一、长短合适
+对仗命名
+add/remove		
+begin/end
+create/destory		
+first/last				
+get/put/set			
+increment/decrement
+insert/delete	
+input/output
+in/out
+left/right
+lock/unlock
+min/max
+next/previous
+old/new
+open/close		
+show/hide
+source/target
+start/stop
+up/down
+
+
+一、变量
+1〉范围_类型_功能/抽象物
+	范围-〉(temp函数内，the全局性，fun函数变量)
+	类型-〉Int、String、Object、Arr	
+	功能-〉动词	
+	tempIntIni
+	theStringState
+	funObjectBox
+2〉循环变量(或局部使用)：i、j、k、l、m、n
+3〉Boolean变量：initIsTrue、openIsTrue、stateIsTrue
+
+
+
+二、函数方法
+1〉函数不限定在类中：
+	返回类型 + "_" + 功能(动词+宾语)
+	void_PrintDocument
+2〉函数在类中：
+	返回类型 + "_" + 功能(动词-〉类为函数作用的对象)
+	void_Sum
+
+三、类
+1〉"C/..." + 抽象物（名词）
+	CHomeController

@@ -1,54 +1,6 @@
 ####工程构建####
 每个函数都要写注释/文档（时间占比不少,任意开发人员都能看懂）
-
-
-####变量/函数/类命名####
-总体原则-〉驼峰法
-对仗命名
-add/remove		
-begin/end
-create/destory		
-first/last				
-get/put/set			
-increment/decrement
-insert/delete	
-input/output
-in/out
-left/right
-lock/unlock
-min/max
-next/previous
-old/new
-open/close		
-show/hide
-source/target
-start/stop
-up/down
-
-
-一、变量
-1〉范围_类型_功能/抽象物
-	范围-〉(temp函数内，the全局性，fun函数变量)
-	类型-〉Int、String、Object、Arr	
-	功能-〉动词	
-	tempIntIni
-	theStringState
-	funObjectBox
-2〉循环变量：i、j、k、l、m、n
-3〉Boolean变量：initIsTrue、openIsTrue、stateIsTrue
-
-二、函数方法
-1〉函数不限定在类中：
-	返回类型 + "_" + 功能(动词+宾语)
-	void_PrintDocument
-2〉函数在类中：
-	返回类型 + "_" + 功能(动词-〉类为函数作用的对象)
-	void_Sum
-
-三、类
-1〉"C/..." + 抽象物（名词）
-	CHomeController
-
+每个工程制定一个命名规则（可以总结各个工程中的共性部分）
 
 
 ####面向对象####
@@ -77,5 +29,9 @@ Seesion->服务器内存中存储用户信息
 保存和取回的过程是通过序列化和对象IO来完成的。
 数据的持久化是序列化的一个典型应用，对象只有在序列化之后才能进行持久化存储，从持久化存储介质中加载数据再通过反序列化传出运行时对象。
 
+
+####编程范式####
+https://blog.csdn.net/Henzox/article/details/70196599
+命令式编程、结构化编程、函数式编程、面向过程、面向对象
 
 
