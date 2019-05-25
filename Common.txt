@@ -13,7 +13,7 @@ netstat -ano //端口--PID
 netstat -ano|findstr "1099" //端口1099--PID
 tasklist  //PID--程序名
 tasklist|findstr "260"//查找字符（一般用PID）
-TASKKILL关闭指定进程
+TASKKILL关闭指定进程(/f /pid ***)
 
 
 
