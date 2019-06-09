@@ -13,3 +13,7 @@
 在浏览器中-〉设置Cookie的例外网站（exception）
 console.log(document. cookie)->显示当前网页的cookie
 
+####Win10####
+https://jingyan.baidu.com/article/6d704a135b1bb828db51cace.html
+
+输入密钥：VK7JG-NPHTM-C97JM-9MPGT-3V66T 
