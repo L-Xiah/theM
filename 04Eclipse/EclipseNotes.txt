@@ -1,0 +1,22 @@
+
+
+####eclipse####
+1>插件安装--在线安装
+	
+
+
+
+####tomcat####
+1>tomcat路径：最好路径中不要有特殊字符，可能会导致路径解析错误
+
+
+
+####插件列表####
+1>AnyEdit
+2>Autodetect Encoding
+3>Checkstyle
+4>Explorer
+5>Hex Editor
+6>MultiProperties
+7>QuickImage
+

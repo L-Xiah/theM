@@ -1,4 +1,10 @@
 
+####编程字体####
+Fira Code字体（GitHub搜索下载，一般otf格式拖到系统字体库）
+Inconsolata字体
+Courier New字体
+...
+
 ####lib/dll等反编译####
 使用反编译工具；
 使用二进制打开程序能修改一些简单的常量。
