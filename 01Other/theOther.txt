@@ -12,6 +12,12 @@ https://jingyan.baidu.com/article/6d704a135b1bb828db51cace.html
 
 输入密钥：VK7JG-NPHTM-C97JM-9MPGT-3V66T 
 
+Win10更新：C盘被格式化
+	->cmd添加administrators
+	->Java环境变量 
+	->Maven环境变量
+	->Mysql服务
+
 ####Cookie####
 有些设置->会在浏览器的重启时去除
 在浏览器中-〉设置Cookie的例外网站（exception）
