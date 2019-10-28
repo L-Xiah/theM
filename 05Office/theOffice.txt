@@ -1,0 +1,8 @@
+####office在线预览####
+通过使用openOffice、LibreOffice后台转pdf；
+项目列表：word-online-view、kkFileViewOfficeEdit、Wenku
+
+word-online-view项目
+使用jodconverter2.2.1版本，实现了doc、xls、ppt文件的转换；
+jodconverter2.2.2版本的jar包有问题，暂时无法实现docx、xlsx、pptx文件的转换；
+

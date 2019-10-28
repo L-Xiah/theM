@@ -1,0 +1,7 @@
+
+
+####链接错误(mysql8)####
+Error:Client does not support authentication protocol requested by server
+Error:Authentication plugin 'caching_sha2_password' cannot be loaded
+一般是账号问题，需要在mysql中设置使用的账号；
+可在Navicat中管理用户的插件为mysql_native_password（在root账号能正常登入的前提下）
