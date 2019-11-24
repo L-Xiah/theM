@@ -5,3 +5,9 @@ Error:Client does not support authentication protocol requested by server
 Error:Authentication plugin 'caching_sha2_password' cannot be loaded
 一般是账号问题，需要在mysql中设置使用的账号；
 可在Navicat中管理用户的插件为mysql_native_password（在root账号能正常登入的前提下）
+
+
+####group_concat_max_len####
+转到mysql命令行界面
+show variables like 'group_concat_max_len';//显示group_concat的最大字符数
+SET GLOBAL group_concat_max_len = 102400;//设置group_concat的最大字符数，需要重新启动mysql

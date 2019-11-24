@@ -1,0 +1,69 @@
+
+
+####Jar包管理####
+使用Maven等包管理的，可以下载相应的插件进行自动管理；
+
+普通的java项目，导入本地jar时，需要手动添加；
+在.classpath文件中添加需要导入的jar包的语句；否则会报import ** cannot be resolved 
+例<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.40-bin.jar"/>（项目根目录下需要有lib文件夹）
+
+
+
+####插件####
+
+风格/提示/快捷键：
+	themes
+	Bracket Pair Colorizer 2（括号变色）
+	vscode-icons
+	Eclipse Keymap(Eclipse快捷键)
+	Visual Studio IntelliCode
+
+
+
+文件/版本查看管理：
+	GitLens(Git)
+	SVN
+	TortoiseSVN
+	Local History（文件修改记录）
+	open in browser(文件的本地位置)
+
+
+
+编辑/运行/调试（Java）：
+	Cloudfoundry Manifest YML Support（YML文件编辑器）
+	Concourse CI Pipeline Editor（YML内容提示）
+	Path Autocomplete（路径补全提示）
+	XML Tools
+
+	Debugger for Java（Java Debug工具）
+	Java Dependency Viewer（依赖查看）
+	Java Extension Pack（java扩展包）
+	Language Support for Java（TM） by Red Hat（Java支持）
+	Java Test Runner（Java测试用）
+	Maven for Java（Maven Java插件）
+	Spring Boot Dashboard（Spring Boot仪表盘）
+	Spring Boot Extension Pack（Spring引导应用程序开发扩展包）
+	Spring Boot Support（Spring Boot支持）
+	Spring Boot Tools（Spring Boot工具）
+	Spring Initializr Java Support（Spring 初始化工具）
+	Tomcat for Java（Tomcat）
+	Java Properties（Properties代码高亮）
+
+
+
+
+HTML/CSS/JS：
+	HTML Boilerplate
+	HTML CSS Support
+	Auto Close Tag
+	Auto Rename Tag
+	CSS Peek（定位CSS）
+	Document this（js 的注释模板）
+	Beautify（格式化）
+	Quokka.js（调试工具）
+	ESLint（自动修复）
+
+
+
+
+
