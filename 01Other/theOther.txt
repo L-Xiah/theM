@@ -28,3 +28,10 @@ console.log(document. cookie)->显示当前网页的cookie
 1>到程序路径下，通过cmd调用参数；例（chrome.exe --enable-webgl --ignore-gpu-blacklist --allow-file-access-from-files）
 
 2>可通过程序的快捷方式，在目标路径后面加参数；例（".../chrome.exe" --enable-webgl --ignore-gpu-blacklist --allow-file-access-from-files）
+
+
+####Github####
+需要在hosts文件中设置Github网址映射：
+#github
+192.30.253.112 codeload.github.com
+151.101.185.194 codeload.github.global.ssl.fastly.net
