@@ -3,6 +3,7 @@
 # idea
 
 .idea/
-
+.vscode/
+.history/
 
 # 10Git/gitNote.txt
