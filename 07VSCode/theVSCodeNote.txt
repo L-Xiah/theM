@@ -57,6 +57,7 @@ HTML/CSS/JS：
 	HTML CSS Support
 	Auto Close Tag
 	Auto Rename Tag
+	Auto Complete Tag
 	CSS Peek（定位CSS）
 	Document this（js 的注释模板）
 	Beautify（格式化）
