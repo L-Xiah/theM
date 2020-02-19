@@ -1,4 +1,9 @@
 
+#########tomcat和JDK###########
+JDK9需要最新的tomcat（9.0以上），
+否则容易提示Error（Multiple markers at this line - ...）
+
+
 #########tomcat操作###########
 //参考JavaWeb.docx中Tomcat章节
 tomcat发布、关闭：%tomcat路径%\bin\(startup.bat、shutdown.bat)
