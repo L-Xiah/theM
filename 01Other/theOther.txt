@@ -30,6 +30,12 @@ console.log(document. cookie)->显示当前网页的cookie
 2>可通过程序的快捷方式，在目标路径后面加参数；例（".../chrome.exe" --enable-webgl --ignore-gpu-blacklist --allow-file-access-from-files）
 
 
+####加密####
+一般是用户密码加密
+加密算法：MD5、SHA-2等
+
+
+
 ####Github####
 需要在hosts文件中设置Github网址映射：
 #github
