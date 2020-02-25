@@ -3,6 +3,9 @@
 # idea
 
 .idea/
+.vscode/
+.history/
 
+.gitignore
 
 # 10Git/gitNote.txt

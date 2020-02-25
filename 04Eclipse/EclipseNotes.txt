@@ -10,7 +10,7 @@
 ####缓冲清除及更新####
 由于使用了其它代码管理软件更新，导致eclipse的项目无法实时更新；
 右键项目-》refresh（与本地硬盘文件对应）；
-菜单Project-》clean（清除缓存）；
+菜单Project-》clean（清除缓存--》build Automatically）；
 右键项目-》Maven-》Update project（用于更新Maven Jar包）；
 servers-》右键clean/publish（有时会自动更新）
 
@@ -19,7 +19,7 @@ servers-》右键clean/publish（有时会自动更新）
 查看日志
 
 
-####发布的项目无lib库####
+####tomcat发布的项目无lib库####
 Error：java.lang.ClassNotFoundException: org.springframework.web.context.ContextLoaderListener
 右键项目-》Properties-》Deployment Assembly
 -》选择Maven Dependencies-》Finish
