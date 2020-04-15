@@ -8,6 +8,37 @@
 例<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.40-bin.jar"/>（项目根目录下需要有lib文件夹）
 
 
+####Maven项目Jar包打包发布####
+左面板 -》 EXPLORER -》MAVEN PROJECTS -》项目右键-》
+package（打包到target）
+install（发布到maven仓库）
+
+
+####pom.xml文件自动导入管理####
+自动更新jar包
+右键pom-》update project configuration（Shift Alt U）
+
+
+####Settings配置####
+settings.json 
+配置Java和Maven：
+"java.home":"D:\\Program Files\\Java\\jdk1.8.0_112",
+"java.configuration.maven.userSettings":"E:\\m2\\apache-maven-3.3.9\\conf\\settings.xml",
+"maven.executable.path": "E:\\m2\\apache-maven-3.3.9\\bin\\mvn.cmd",
+"maven.terminal.useJavaHome": true,
+"maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "D:\\Program Files\\Java\\jdk1.8.0_112"
+        }
+],
+
+
+关闭单击预览模式
+"workbench.editor.enablePreview": false
+
+
+
 
 ####插件####
 
@@ -17,7 +48,7 @@
 	vscode-icons
 	Eclipse Keymap(Eclipse快捷键)
 	Visual Studio IntelliCode
-
+	SynthWave‘84（字体颜色主题，我个人非常喜欢的一套高亮字体方案）
 
 
 文件/版本查看管理：
@@ -26,8 +57,10 @@
 	TortoiseSVN
 	Local History（文件修改记录）
 	open in browser(文件的本地位置)
+	5. Settings Sync （将VScode的配置上传到github）
 
-
+通用：
+	koroFileHeader（文件头注释（ctrl+alt+i） 和函数头注释（ctrl+alt+t）工具，一键生成头注释）
 
 编辑/运行/调试（Java）：
 	Cloudfoundry Manifest YML Support（YML文件编辑器）
@@ -49,6 +82,12 @@
 	Tomcat for Java（Tomcat）
 	Java Properties（Properties代码高亮）
 
+Python 开发：
+1. Python（必备）
+2. Anaconda Extension Pack（可以自动补全anaconda包中的属性名称）
+3. Code Spell Checker（单词拼写检查，选中拼写错误的单词，旁边出现黄色小灯泡，点击选择单词，直接替换）
+4. Guides （提供缩进检查，有时候for, if ）
+提示-》（1.使用jedi:提示太慢；2.使用Microsoft.python.language server+intellicode：速度可以，功能太鸡肋）
 
 
 
@@ -63,7 +102,8 @@ HTML/CSS/JS：
 	Beautify（格式化）
 	Quokka.js（调试工具）
 	ESLint（自动修复）
-
+	jQuery Code Snippets（juqery提示插件）
+	
 
 
 

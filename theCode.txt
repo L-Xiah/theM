@@ -50,6 +50,8 @@ https://blog.csdn.net/Henzox/article/details/70196599
 ####Î¢·þÎñ####
 RPC£¨Remote Procedure Call Protocol)£¨Ô¶³ÌÍ¨ÐÅÐ­Òé£©-¡µ²»Í¬·þÎñÖ®Ç°Í¨ÐÅ
 SOA£¨Service-Oriented Architecture£©£¨ÃæÏò·þÎñ¼Ü¹¹£©-¡µÃæÏòÒµÎñ¡¢ËÉñîºÏ
+ESB£¨Enterprise Service Bus£©£¨ÆóÒµ·þÎñ×ÜÏß£©->Á¬½Ó¸÷¸ö·þÎñµãµÄ¹ÜµÀ
+
 Docker-¡µlinuxÈÝÆ÷·â×°[Ó¦ÓÃ³ÌÐò+»·¾³ÅäÖÃ£¨ÒÀÀµ£©-¡µÕý³£ÔËÐÐ£»Docker½«³ÌÐòºÍÒÀÀµ´ø°ü½øÒ»¸öÎÄ¼þ£¬×÷ÓÃÏàµ±ÓÚÒ»¸öÐéÄâ»ú]
 
 
@@ -57,4 +59,8 @@ Docker-¡µlinuxÈÝÆ÷·â×°[Ó¦ÓÃ³ÌÐò+»·¾³ÅäÖÃ£¨ÒÀÀµ£©-¡µÕý³£ÔËÐÐ£»Docker½«³ÌÐòºÍÒÀÀµ´
 Î¢·þÎñ¿ò¼Ü-¡µDubbo¡¢SpringCloud¡¢ZeroC¡¢IceGrid
 
 
+####±à³Ì####
+Ëã·¨µÄÊ±¼ä¸´ÔÓ¶ÈÓë¿Õ¼ä¸´ÔÓ¶È£»
+³ÌÐòµÄÔËÐÐÊý¾ÝÓë´æ´¢¿Õ¼ä£»
+ÓïÑÔµÄ¿ª·¢Ð§ÂÊÓëÔËÐÐÐ§ÂÊ£»
 

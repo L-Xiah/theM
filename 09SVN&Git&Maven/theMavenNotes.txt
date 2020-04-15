@@ -1,0 +1,14 @@
+
+
+
+####Maven安装Jar包到仓库####
+file=sec-base-1.0-SNAPSHOT.jar
+groupId=com.sec.base
+artifactId=sec-base
+version=1.0-SNAPSHOT
+packaging=jar
+generatePom=true
+
+cmd命令：
+mvn install:install-file -Dfile=sec-base-1.0-SNAPSHOT.jar -DgroupId=com.sec.base -DartifactId=sec-base -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
+
