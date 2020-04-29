@@ -1,0 +1,81 @@
+
+
+
+####引用其它项目/jar包####
+引用其它项目也可以在Maven中设置（例：rmds-web引用rmds-shared）；
+项目属性（Properties for ***）设置-》在Deployment Assembly中添加引用项目（如无可新增，如有问题也可删除再新增）
+
+
+引用rmds-shared项目生成的jar包不能使用（jar包中路径有问题）
+rmds-shared项目右键--》属性Properties--》在Deployment Assembly中将source对应的Deploy Path都改为"/"(原项目rmds-web项目不需要修改)
+
+
+无法引用rmds-shared项目打的jar包（jar包中路径有问题）
+可将rmds-shared项目Maven Install生成jar包（IDEA不需要，内置直接生成了）
+eclipse 使用Maven Install 需要rmds-shared项目的pom文件中需要设置：
+<build>
+    <plugins>
+    	<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>2.22.1</version>
+			<configuration>
+				<skipTests>true</skipTests>
+			</configuration>
+		</plugin>
+    </plugins>
+</build>
+
+
+
+
+总结：引用项目需要在pom中添加引用项目的配置，引用方式有两种：
+1》将被引用项目发布到仓库，直接引用仓库中的jar包；
+2》在Deployment Assembly中添加引用项目，可对引用项目进行热部署好调试；
+
+使用第一种方式需要在pom中配置build属性值，相对容易理解，将被引用项目作为一个特殊的自开发Jar包，缺点不好调试；
+eclipse在使用第一种方式时首先需要在pom中配置build属性值，在被引用项目修改时每次都需要进行Maven Install到仓库
+使用第二种方式eclipse中经常会有错误，主要是在打包被引用项目到目标项目lib库中该Jar包有问题，被引用项目可以一起调试；
+idea使用第二种方法不需要额外的设置也不需要pom中配置build属性值，对被引用项目直接生成jar包至目标项目的lib库中进行部署；
+
+
+
+
+####缓冲清除及更新####
+由于使用了其它代码管理软件更新，导致eclipse的项目无法实时更新；
+右键项目-》refresh（与本地硬盘文件对应）；
+菜单Project-》clean（清除缓存--》build Automatically）；
+右键项目-》Maven-》Update project（用于更新Maven Jar包）；
+servers-》右键clean/publish（有时会自动更新）
+
+####Maven Jar包问题####
+右键项目-》Run As-》Maven Test
+查看日志
+
+
+安装jar包到仓库
+右键项目-》Run As-》Maven Install
+
+
+####tomcat发布的项目无lib库####
+Error：java.lang.ClassNotFoundException: org.springframework.web.context.ContextLoaderListener
+右键项目-》Properties-》Deployment Assembly
+-》选择Maven Dependencies-》Finish
+
+
+####tomcat####
+1>tomcat路径：最好路径中不要有特殊字符，可能会导致路径解析错误
+2>使用workspace的路径建立tomcat副本（也可使用tomcat路径）
+
+
+
+####插件列表####
+插件安装--在线安装
+1>AnyEdit
+2>Autodetect Encoding
+3>Checkstyle
+4>Explorer
+5>Hex Editor
+6>MultiProperties
+7>QuickImage
+

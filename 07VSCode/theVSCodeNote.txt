@@ -38,6 +38,10 @@ settings.json
 "workbench.editor.enablePreview": false
 
 
+排除
+files.exclude 中设置不需要显示的文件夹
+Search.exclude 中排除不需要搜索的文件夹
+
 
 
 ####插件####
