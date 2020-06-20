@@ -11,3 +11,6 @@ tomcat发布项目：%tomcat路径%\webapps\(**.war、web项目文件夹)
 浏览web：输入http://localhost(ip地址):8080(端口号)/web项目文件夹名/**（可通过该方法下载文件）
 
 
+####窗口中文乱码####
+**/conf/logging.properties文件中设置
+java.util.logging.ConsoleHandler.encoding = GBK

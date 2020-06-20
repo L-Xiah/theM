@@ -59,8 +59,41 @@ Docker-¡µlinuxÈÝÆ÷·â×°[Ó¦ÓÃ³ÌÐò+»·¾³ÅäÖÃ£¨ÒÀÀµ£©-¡µÕý³£ÔËÐÐ£»Docker½«³ÌÐòºÍÒÀÀµ´
 Î¢·þÎñ¿ò¼Ü-¡µDubbo¡¢SpringCloud¡¢ZeroC¡¢IceGrid
 
 
-####±à³Ì####
+
+####·Ö²¼Ê½ÏµÍ³¼Ü¹¹####
+
+µÚÒ»´ú£ºdubbo
+µÚ¶þ´ú£ºSpring Cloud
+µÚÈý´ú£ºService Mesh
+µÚËÄ´ú£ºÔÆ(×ÊÔ´ÄÜÁ¦) + ÈÝÆ÷(Runtime¡¢µ÷¶È) + Service Mesh(Í¨ÐÅ) + API Gateway(½Ó¿ÚÍø¹Ø)
+
+
+¡·Ç°TCPÊ±´ú£º²»Í¬·þÎñÖ®¼äµ¥¶À´¦ÀíÍ¨ÐÅ»úÖÆ£¨ÍøÂç´«Êä´¦Àí»úÖÆ£©£»
+¡·TCPÊ±´ú£ºTCPÐ­Òé£¨ÍøÂç´«Êä£©£¬¸÷·þÎñ²»ÐèÒªÐ´×Ô¼ºµ¥¶ÀµÄÍ¨ÐÅ£¬³ÉÎª²Ù×÷ÏµÍ³ÍøÂç²ãµÄÒ»²¿·Ö£»
+¡·µÚÒ»´úÎ¢·þÎñ£ºÆäÊµ¾ÍÊÇÀûÓÃTCPÍøÂçÍ¨ÐÅ£¬ÊµÏÖ·Ö²¼Ê½ÏµÍ³¶øÒÑ£¨GFS¡¢BigTable¡¢MapReduce£©£»
+¡·µÚ¶þ´úÎ¢·þÎñ£ºÔÚ·þÎñ¿ò¼ÜÖÐÕûºÏÁËÒ»Ì×·Ö²¼Ê½ÏµÍ³Í¨ÐÅ¹¦ÄÜ£¬Spring CloudµÈ£»
+¡·µÚÈý´úÎ¢·þÎñ£ºService Mesh£º½«·Ö²¼Ê½ÏµÍ³Í¨ÐÅ¹¦ÄÜ×ö³Éµ¥¶ÀÒ»²ã£¬×÷ÎªÎ¢·þÎñµÄTCPÐ­Òé£»
+
+
+
+
+####±à³Ì/£¿####
 Ëã·¨µÄÊ±¼ä¸´ÔÓ¶ÈÓë¿Õ¼ä¸´ÔÓ¶È£»
 ³ÌÐòµÄÔËÐÐÊý¾ÝÓë´æ´¢¿Õ¼ä£»
 ÓïÑÔµÄ¿ª·¢Ð§ÂÊÓëÔËÐÐÐ§ÂÊ£»
+
+±à³Ì¿ª·¢¡¢²âÊÔºÍ²¿ÊðÖÐ×Ü»á³öÏÖÐí¶àbug£»ÐèÒª×ÐÏ¸²é¿´±¨´íÐÅÏ¢£¬ÏÈ¶¨Î»´íÎóÇé¿ö£»ÔÙÈ¥ËÑË÷½â¾ö·½°¸£»
+
+
+####±àÒëÐÍÓïÑÔ/½âÊÍÐÍÓïÑÔ####
+
+±àÒëÐÍÓïÑÔ£º±àÒëÆ÷½«Ô´´úÂë×ª»»³É»úÆ÷Âë£¬¼´¿ÉÖ´ÐÐ³ÌÐò(.exe³ÌÐò)£»±ÈÈçC¡¢C++¡¢GolangµÈ¡£
+		±àÒëÒ»´Î£¬²»ÒÀÀµ±àÒëÆ÷£¬ÔËÐÐÐ§ÂÊ¸ß£»¿ÉÒÆÖ²ÐÔ²î£¬²»¹»Áé»î¡£
+½âÊÍÐÍÓïÑÔ£º²»Éú³É¿ÉÖ´ÐÐ³ÌÐò£¬Ã¿´ÎÖ´ÐÐÊ±£¬Í¨¹ý½âÊÍÆ÷Ò»±ßÖ´ÐÐÒ»±ß×ª»»£»±ÈÈçPython¡¢PHP¡¢JsµÈ¡£
+		¿çÆ½Ì¨ÐÔºÃ£¬Í¨¹ý²»Í¬Æ½Ì¨µÄ½âÊÍÆ÷£¬½«ÏàÍ¬µÄÔ´´úÂë½âÊÍ³É²»Í¬»úÆ÷Âë£»Ð§ÂÊºÜµÍ¡£
+Java¡¢C#£º½éÓÚÁ½ÕßÖ®¼äµÄ°ë±àÒë°ë½âÊÍÐÍÓïÑÔ£¬Ô´´úÂë×ª»»ÎªÖÐ¼äÎÄ¼þ£¨×Ö½ÚÂë£©£¬½«×Ö½ÚÂëÔÚÐéÄâ»úÖÐÖ´ÐÐ¡£
+		ÓÅÈ±µã½éÓÚÁ½ÕßÖ®¼ä
+
+
+
 
