@@ -85,6 +85,7 @@ Search.exclude 中排除不需要搜索的文件夹
 	Spring Initializr Java Support（Spring 初始化工具）
 	Tomcat for Java（Tomcat）
 	Java Properties（Properties代码高亮）
+	Vetur（Vue开发）
 
 Python 开发：
 1. Python（必备）
