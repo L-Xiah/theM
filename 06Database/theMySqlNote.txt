@@ -11,3 +11,11 @@ Error:Authentication plugin 'caching_sha2_password' cannot be loaded
 转到mysql命令行界面
 show variables like 'group_concat_max_len';//显示group_concat的最大字符数
 SET GLOBAL group_concat_max_len = 102400;//设置group_concat的最大字符数，需要重新启动mysql
+
+
+####mysql服务安装####
+1》mysql服务简易版安装教程：
+https://www.cnblogs.com/2020javamianshibaodian/p/12933674.html
+
+2》mysql服务完全版安装教程
+https://www.cnblogs.com/2020javamianshibaodian/p/mysql8020anzhuangjiaocheng.html
