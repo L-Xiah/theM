@@ -69,7 +69,7 @@ Ctrl + B（关闭/打开左边栏）
 Alt + Shift + ↑↓（复制）
 Ctrl + Shift + P（命令输入面板）
 Ctrl + Alt + I(注释，需koroFileHeader插件)
-打击打开文件"预览模式"会被覆盖，双击打开新tab
+点击打开文件"预览模式"会被覆盖，双击打开新tab
 设置-> keyboard Shortcuts ->自定义快捷键
 已自定义-》Ctrl Alt C（terminal.clear）
 

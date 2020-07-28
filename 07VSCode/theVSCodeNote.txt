@@ -42,6 +42,15 @@ settings.json
 files.exclude 中设置不需要显示的文件夹
 Search.exclude 中排除不需要搜索的文件夹
 
+提示去除
+setting--》Pylint args
+--errors-only
+--disable=E0401
+
+代码中去除提示：
+			#pylint: disable=wrong-import-position
+			import...
+			#pylint: enable=wrong-import-position
 
 
 ####插件####
