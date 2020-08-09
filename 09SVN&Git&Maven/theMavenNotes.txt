@@ -1,14 +1,14 @@
 
 
 
-####Maven�ֿ�####
-��https://blog.csdn.net/win7system/article/details/51260282��
+####Maven仓库####
+（https://blog.csdn.net/win7system/article/details/51260282）
 http://repo1.maven.org/maven2
-http://maven.aliyun.com/nexus/content/groups/public/  ������
+http://maven.aliyun.com/nexus/content/groups/public/  阿里云
 
 
 
-####Maven��װJar�����ֿ�####
+####Maven安装Jar包到仓库####
 file=sec-base-1.0-SNAPSHOT.jar
 groupId=com.sec.base
 artifactId=sec-base
@@ -16,6 +16,9 @@ version=1.0-SNAPSHOT
 packaging=jar
 generatePom=true
 
-cmd���
+cmd命令：
 mvn install:install-file -Dfile=sec-base-1.0-SNAPSHOT.jar -DgroupId=com.sec.base -DartifactId=sec-base -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
 
+####pom中的jdk版本不一致####
+项目中的maven.compiler的版本和jdk版本与IDE的jdk版本不一致会导致不能正常编译；
+有时报的错误挺怪异（VSCode中会出现，尤其现在VSCode必须配JDK11以上，旧项目用的的jdk1.8或jdk1.7）
