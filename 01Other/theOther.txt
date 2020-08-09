@@ -1,43 +1,47 @@
 
 
 
-####Æô¶¯ÏµÍ³####
-1¡µcmd->msconfig->Òıµ¼
-
-2¡µÎÒµÄµçÄÔ-¡µÏµÍ³ÊôĞÔ-¡µ¸ß¼¶-¡µÆô¶¯ºÍ¹ÊÕÏ»Ö¸´£¨ÉèÖÃ£©-¡µÉèÖÃÄ¬ÈÏÏµÍ³¼°µÈ´ıÊ±¼ä
+####å¯åŠ¨ç³»ç»Ÿ####
+1ã€‰cmd->msconfig->å¼•å¯¼
+2ã€‰æˆ‘çš„ç”µè„‘-ã€‰ç³»ç»Ÿå±æ€§-ã€‰é«˜çº§-ã€‰å¯åŠ¨å’Œæ•…éšœæ¢å¤ï¼ˆè®¾ç½®ï¼‰-ã€‰è®¾ç½®é»˜è®¤ç³»ç»ŸåŠç­‰å¾…æ—¶é—´
 
 
 ####Win10####
 https://jingyan.baidu.com/article/6d704a135b1bb828db51cace.html
+è¾“å…¥å¯†é’¥ï¼šVK7JG-NPHTM-C97JM-9MPGT-3V66T 
 
-ÊäÈëÃÜÔ¿£ºVK7JG-NPHTM-C97JM-9MPGT-3V66T 
+Win10æ›´æ–°ï¼šCç›˜è¢«æ ¼å¼åŒ–
+	->cmdæ·»åŠ administrators
+	->ç¯å¢ƒå˜é‡ï¼ˆJavaã€Mavenç­‰ï¼‰
+	->MysqlæœåŠ¡ã€Pythonã€NodeJsç­‰
 
-Win10¸üĞÂ£ºCÅÌ±»¸ñÊ½»¯
-	->cmdÌí¼Óadministrators
-	->Java»·¾³±äÁ¿ 
-	->Maven»·¾³±äÁ¿
-	->Mysql·şÎñ
+
 
 ####Cookie####
-ÓĞĞ©ÉèÖÃ->»áÔÚä¯ÀÀÆ÷µÄÖØÆôÊ±È¥³ı
-ÔÚä¯ÀÀÆ÷ÖĞ-¡µÉèÖÃCookieµÄÀıÍâÍøÕ¾£¨exception£©
-console.log(document. cookie)->ÏÔÊ¾µ±Ç°ÍøÒ³µÄcookie
+æœ‰äº›è®¾ç½®->ä¼šåœ¨æµè§ˆå™¨çš„é‡å¯æ—¶å»é™¤
+åœ¨æµè§ˆå™¨ä¸­-ã€‰è®¾ç½®Cookieçš„ä¾‹å¤–ç½‘ç«™ï¼ˆexceptionï¼‰
+console.log(document. cookie)->æ˜¾ç¤ºå½“å‰ç½‘é¡µçš„cookie
 
 
-####´ø²ÎÆô¶¯³ÌĞò####
-1>µ½³ÌĞòÂ·¾¶ÏÂ£¬Í¨¹ıcmdµ÷ÓÃ²ÎÊı£»Àı£¨chrome.exe --enable-webgl --ignore-gpu-blacklist --allow-file-access-from-files£©
 
-2>¿ÉÍ¨¹ı³ÌĞòµÄ¿ì½İ·½Ê½£¬ÔÚÄ¿±êÂ·¾¶ºóÃæ¼Ó²ÎÊı£»Àı£¨".../chrome.exe" --enable-webgl --ignore-gpu-blacklist --allow-file-access-from-files£©
+####Chrome####
+é…ç½®GreenChromeæ’ä»¶
+å°†*.iniå’Œ*.dllæ–‡ä»¶æ”¾ç½®åœ¨chrome.exeæ–‡ä»¶åŒç›®å½•ä¸‹
 
 
-####¼ÓÃÜ####
-Ò»°ãÊÇÓÃ»§ÃÜÂë¼ÓÃÜ
-¼ÓÃÜËã·¨£ºMD5¡¢SHA-2µÈ
+å¸¦å‚å¯åŠ¨ç¨‹åº
+1>åˆ°ç¨‹åºè·¯å¾„ä¸‹ï¼Œé€šè¿‡cmdè°ƒç”¨å‚æ•°ï¼›ä¾‹ï¼ˆchrome.exe --enable-webgl --ignore-gpu-blacklist --allow-file-access-from-filesï¼‰
+2>å¯é€šè¿‡ç¨‹åºçš„å¿«æ·æ–¹å¼ï¼Œåœ¨ç›®æ ‡è·¯å¾„åé¢åŠ å‚æ•°ï¼›ä¾‹ï¼ˆ".../chrome.exe" --enable-webgl --ignore-gpu-blacklist --allow-file-access-from-filesï¼‰
+
+
+####åŠ å¯†####
+ä¸€èˆ¬æ˜¯ç”¨æˆ·å¯†ç åŠ å¯†
+åŠ å¯†ç®—æ³•ï¼šMD5ã€SHA-2ç­‰
 
 
 
 ####Github####
-ĞèÒªÔÚhostsÎÄ¼şÖĞÉèÖÃGithubÍøÖ·Ó³Éä£º
+éœ€è¦åœ¨hostsæ–‡ä»¶ä¸­è®¾ç½®Githubç½‘å€æ˜ å°„ï¼š
 #github
 192.30.253.112 codeload.github.com
 151.101.185.194 codeload.github.global.ssl.fastly.net

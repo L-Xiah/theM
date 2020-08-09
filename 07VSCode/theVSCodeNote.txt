@@ -1,122 +1,133 @@
 
 
-####Jar°ü¹ÜÀí####
-Ê¹ÓÃMavenµÈ°ü¹ÜÀíµÄ£¬¿ÉÒÔÏÂÔØÏàÓ¦µÄ²å¼ş½øĞĞ×Ô¶¯¹ÜÀí£»
+####JaråŒ…ç®¡ç†####
+ä½¿ç”¨Mavenç­‰åŒ…ç®¡ç†çš„ï¼Œå¯ä»¥ä¸‹è½½ç›¸åº”çš„æ’ä»¶è¿›è¡Œè‡ªåŠ¨ç®¡ç†ï¼›
 
-ÆÕÍ¨µÄjavaÏîÄ¿£¬µ¼Èë±¾µØjarÊ±£¬ĞèÒªÊÖ¶¯Ìí¼Ó£»
-ÔÚ.classpathÎÄ¼şÖĞÌí¼ÓĞèÒªµ¼ÈëµÄjar°üµÄÓï¾ä£»·ñÔò»á±¨import ** cannot be resolved 
-Àı<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.40-bin.jar"/>£¨ÏîÄ¿¸ùÄ¿Â¼ÏÂĞèÒªÓĞlibÎÄ¼ş¼Ğ£©
-
-
-####MavenÏîÄ¿Jar°ü´ò°ü·¢²¼####
-×óÃæ°å -¡· EXPLORER -¡·MAVEN PROJECTS -¡·ÏîÄ¿ÓÒ¼ü-¡·
-package£¨´ò°üµ½target£©
-install£¨·¢²¼µ½maven²Ö¿â£©
+æ™®é€šçš„javaé¡¹ç›®ï¼Œå¯¼å…¥æœ¬åœ°jaræ—¶ï¼Œéœ€è¦æ‰‹åŠ¨æ·»åŠ ï¼›
+åœ¨.classpathæ–‡ä»¶ä¸­æ·»åŠ éœ€è¦å¯¼å…¥çš„jaråŒ…çš„è¯­å¥ï¼›å¦åˆ™ä¼šæŠ¥import ** cannot be resolved 
+ä¾‹<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.40-bin.jar"/>ï¼ˆé¡¹ç›®æ ¹ç›®å½•ä¸‹éœ€è¦æœ‰libæ–‡ä»¶å¤¹ï¼‰
 
 
-####pom.xmlÎÄ¼ş×Ô¶¯µ¼Èë¹ÜÀí####
-×Ô¶¯¸üĞÂjar°ü
-ÓÒ¼üpom-¡·update project configuration£¨Shift Alt U£©
+####Mavené¡¹ç›®JaråŒ…æ‰“åŒ…å‘å¸ƒ####
+å·¦é¢æ¿ -ã€‹ EXPLORER -ã€‹MAVEN PROJECTS -ã€‹é¡¹ç›®å³é”®-ã€‹
+packageï¼ˆæ‰“åŒ…åˆ°targetï¼‰
+installï¼ˆå‘å¸ƒåˆ°mavenä»“åº“ï¼‰
 
 
-####SettingsÅäÖÃ####
+####pom.xmlæ–‡ä»¶è‡ªåŠ¨å¯¼å…¥ç®¡ç†####
+è‡ªåŠ¨æ›´æ–°jaråŒ…
+å³é”®pom-ã€‹update project configurationï¼ˆShift Alt Uï¼‰
+
+
+####Settingsé…ç½®####
 settings.json 
-ÅäÖÃJavaºÍMaven£º
-"java.home":"D:\\Program Files\\Java\\jdk1.8.0_112",
+é…ç½®Java(æŒ‡å®šjdkç‰ˆæœ¬)å’ŒMavenï¼š
+"java.home":"D:\\Program Files\\Java\\jre_jdk_14_x64\\jdk-14.0.2+12",
 "java.configuration.maven.userSettings":"E:\\m2\\apache-maven-3.3.9\\conf\\settings.xml",
 "maven.executable.path": "E:\\m2\\apache-maven-3.3.9\\bin\\mvn.cmd",
 "maven.terminal.useJavaHome": true,
 "maven.terminal.customEnv": [
         {
             "environmentVariable": "JAVA_HOME",
-            "value": "D:\\Program Files\\Java\\jdk1.8.0_112"
+            "value": "D:\\Program Files\\Java\\jre_jdk_14_x64\\jdk-14.0.2+12"
         }
 ],
+"java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "D:\\Program Files\\Java\\jdk1.8.0_112",
+            "default": true
+          },
+          {
+            "name": "JavaSE-14",
+            "path": "D:\\Program Files\\Java\\jre_jdk_14_x64\\jdk-14.0.2+12"
+          },
+],
 
-
-¹Ø±Õµ¥»÷Ô¤ÀÀÄ£Ê½
+å…³é—­å•å‡»é¢„è§ˆæ¨¡å¼
 "workbench.editor.enablePreview": false
 
 
-ÅÅ³ı
-files.exclude ÖĞÉèÖÃ²»ĞèÒªÏÔÊ¾µÄÎÄ¼ş¼Ğ
-Search.exclude ÖĞÅÅ³ı²»ĞèÒªËÑË÷µÄÎÄ¼ş¼Ğ
+æ’é™¤
+files.exclude ä¸­è®¾ç½®ä¸éœ€è¦æ˜¾ç¤ºçš„æ–‡ä»¶å¤¹
+Search.exclude ä¸­æ’é™¤ä¸éœ€è¦æœç´¢çš„æ–‡ä»¶å¤¹
 
-ÌáÊ¾È¥³ı
-setting--¡·Pylint args
+æç¤ºå»é™¤
+setting--ã€‹Pylint args
 --errors-only
 --disable=E0401
 
-´úÂëÖĞÈ¥³ıÌáÊ¾£º
+ä»£ç ä¸­å»é™¤æç¤ºï¼š
 			#pylint: disable=wrong-import-position
 			import...
 			#pylint: enable=wrong-import-position
 
 
-####²å¼ş####
+####æ’ä»¶####
 
-·ç¸ñ/ÌáÊ¾/¿ì½İ¼ü£º
+é£æ ¼/æç¤º/å¿«æ·é”®ï¼š
 	themes
-	Bracket Pair Colorizer 2£¨À¨ºÅ±äÉ«£©
+	Bracket Pair Colorizer 2ï¼ˆæ‹¬å·å˜è‰²ï¼‰
 	vscode-icons
-	Eclipse Keymap(Eclipse¿ì½İ¼ü)
+	Eclipse Keymap(Eclipseå¿«æ·é”®)
 	Visual Studio IntelliCode
-	SynthWave¡®84£¨×ÖÌåÑÕÉ«Ö÷Ìâ£¬ÎÒ¸öÈË·Ç³£Ï²»¶µÄÒ»Ì×¸ßÁÁ×ÖÌå·½°¸£©
+	SynthWaveâ€˜84ï¼ˆå­—ä½“é¢œè‰²ä¸»é¢˜ï¼Œæˆ‘ä¸ªäººéå¸¸å–œæ¬¢çš„ä¸€å¥—é«˜äº®å­—ä½“æ–¹æ¡ˆï¼‰
 
 
-ÎÄ¼ş/°æ±¾²é¿´¹ÜÀí£º
+æ–‡ä»¶/ç‰ˆæœ¬æŸ¥çœ‹ç®¡ç†ï¼š
 	GitLens(Git)
 	SVN
 	TortoiseSVN
-	Local History£¨ÎÄ¼şĞŞ¸Ä¼ÇÂ¼£©
-	open in browser(ÎÄ¼şµÄ±¾µØÎ»ÖÃ)
-	5. Settings Sync £¨½«VScodeµÄÅäÖÃÉÏ´«µ½github£©
+	Local Historyï¼ˆæ–‡ä»¶ä¿®æ”¹è®°å½•ï¼‰
+	open in browser(æ–‡ä»¶çš„æœ¬åœ°ä½ç½®)
+	5. Settings Sync ï¼ˆå°†VScodeçš„é…ç½®ä¸Šä¼ åˆ°githubï¼‰
 
-Í¨ÓÃ£º
-	koroFileHeader£¨ÎÄ¼şÍ·×¢ÊÍ£¨ctrl+alt+i£© ºÍº¯ÊıÍ·×¢ÊÍ£¨ctrl+alt+t£©¹¤¾ß£¬Ò»¼üÉú³ÉÍ·×¢ÊÍ£©
+é€šç”¨ï¼š
+	koroFileHeaderï¼ˆæ–‡ä»¶å¤´æ³¨é‡Šï¼ˆctrl+alt+iï¼‰ å’Œå‡½æ•°å¤´æ³¨é‡Šï¼ˆctrl+alt+tï¼‰å·¥å…·ï¼Œä¸€é”®ç”Ÿæˆå¤´æ³¨é‡Šï¼‰
 
-±à¼­/ÔËĞĞ/µ÷ÊÔ£¨Java£©£º
-	Cloudfoundry Manifest YML Support£¨YMLÎÄ¼ş±à¼­Æ÷£©
-	Concourse CI Pipeline Editor£¨YMLÄÚÈİÌáÊ¾£©
-	Path Autocomplete£¨Â·¾¶²¹È«ÌáÊ¾£©
+ç¼–è¾‘/è¿è¡Œ/è°ƒè¯•ï¼ˆJavaï¼‰ï¼š
+	Cloudfoundry Manifest YML Supportï¼ˆYMLæ–‡ä»¶ç¼–è¾‘å™¨ï¼‰
+	Concourse CI Pipeline Editorï¼ˆYMLå†…å®¹æç¤ºï¼‰
+	Path Autocompleteï¼ˆè·¯å¾„è¡¥å…¨æç¤ºï¼‰
 	XML Tools
 
-	Debugger for Java£¨Java Debug¹¤¾ß£©
-	Java Dependency Viewer£¨ÒÀÀµ²é¿´£©
-	Java Extension Pack£¨javaÀ©Õ¹°ü£©
-	Language Support for Java£¨TM£© by Red Hat£¨JavaÖ§³Ö£©
-	Java Test Runner£¨Java²âÊÔÓÃ£©
-	Maven for Java£¨Maven Java²å¼ş£©
-	Spring Boot Dashboard£¨Spring BootÒÇ±íÅÌ£©
-	Spring Boot Extension Pack£¨SpringÒıµ¼Ó¦ÓÃ³ÌĞò¿ª·¢À©Õ¹°ü£©
-	Spring Boot Support£¨Spring BootÖ§³Ö£©
-	Spring Boot Tools£¨Spring Boot¹¤¾ß£©
-	Spring Initializr Java Support£¨Spring ³õÊ¼»¯¹¤¾ß£©
-	Tomcat for Java£¨Tomcat£©
-	Java Properties£¨Properties´úÂë¸ßÁÁ£©
-	Vetur£¨Vue¿ª·¢£©
+	Debugger for Javaï¼ˆJava Debugå·¥å…·ï¼‰
+	Java Dependency Viewerï¼ˆä¾èµ–æŸ¥çœ‹ï¼‰
+	Java Extension Packï¼ˆjavaæ‰©å±•åŒ…ï¼‰
+	Language Support for Javaï¼ˆTMï¼‰ by Red Hatï¼ˆJavaæ”¯æŒï¼Œæœ€æ–°ç‰ˆéœ€è¦é…jdk11ä»¥ä¸Šï¼‰
+	Java Test Runnerï¼ˆJavaæµ‹è¯•ç”¨ï¼‰
+	Maven for Javaï¼ˆMaven Javaæ’ä»¶ï¼‰
+	Spring Boot Dashboardï¼ˆSpring Bootä»ªè¡¨ç›˜ï¼‰
+	Spring Boot Extension Packï¼ˆSpringå¼•å¯¼åº”ç”¨ç¨‹åºå¼€å‘æ‰©å±•åŒ…ï¼‰
+	Spring Boot Supportï¼ˆSpring Bootæ”¯æŒï¼‰
+	Spring Boot Toolsï¼ˆSpring Bootå·¥å…·ï¼‰
+	Spring Initializr Java Supportï¼ˆSpring åˆå§‹åŒ–å·¥å…·ï¼‰
+	Tomcat for Javaï¼ˆTomcatï¼‰
+	Java Propertiesï¼ˆPropertiesä»£ç é«˜äº®ï¼‰
+	Veturï¼ˆVueå¼€å‘ï¼‰
+	"Good Enough" Scala Language Server
 
-Python ¿ª·¢£º
-1. Python£¨±Ø±¸£©
-2. Anaconda Extension Pack£¨¿ÉÒÔ×Ô¶¯²¹È«anaconda°üÖĞµÄÊôĞÔÃû³Æ£©
-3. Code Spell Checker£¨µ¥´ÊÆ´Ğ´¼ì²é£¬Ñ¡ÖĞÆ´Ğ´´íÎóµÄµ¥´Ê£¬ÅÔ±ß³öÏÖ»ÆÉ«Ğ¡µÆÅİ£¬µã»÷Ñ¡Ôñµ¥´Ê£¬Ö±½ÓÌæ»»£©
-4. Guides £¨Ìá¹©Ëõ½ø¼ì²é£¬ÓĞÊ±ºòfor, if £©
-ÌáÊ¾-¡·£¨1.Ê¹ÓÃjedi:ÌáÊ¾Ì«Âı£»2.Ê¹ÓÃMicrosoft.python.language server+intellicode£ºËÙ¶È¿ÉÒÔ£¬¹¦ÄÜÌ«¼¦Àß£©
+Python å¼€å‘ï¼š
+1. Pythonï¼ˆå¿…å¤‡ï¼‰
+2. Anaconda Extension Packï¼ˆå¯ä»¥è‡ªåŠ¨è¡¥å…¨anacondaåŒ…ä¸­çš„å±æ€§åç§°ï¼‰
+3. Code Spell Checkerï¼ˆå•è¯æ‹¼å†™æ£€æŸ¥ï¼Œé€‰ä¸­æ‹¼å†™é”™è¯¯çš„å•è¯ï¼Œæ—è¾¹å‡ºç°é»„è‰²å°ç¯æ³¡ï¼Œç‚¹å‡»é€‰æ‹©å•è¯ï¼Œç›´æ¥æ›¿æ¢ï¼‰
+4. Guides ï¼ˆæä¾›ç¼©è¿›æ£€æŸ¥ï¼Œæœ‰æ—¶å€™for, if ï¼‰
+æç¤º-ã€‹ï¼ˆ1.ä½¿ç”¨jedi:æç¤ºå¤ªæ…¢ï¼›2.ä½¿ç”¨Microsoft.python.language server+intellicodeï¼šé€Ÿåº¦å¯ä»¥ï¼ŒåŠŸèƒ½å¤ªé¸¡è‚‹ï¼‰
 
 
 
-HTML/CSS/JS£º
+HTML/CSS/JSï¼š
 	HTML Boilerplate
 	HTML CSS Support
 	Auto Close Tag
 	Auto Rename Tag
 	Auto Complete Tag
-	CSS Peek£¨¶¨Î»CSS£©
-	Document this£¨js µÄ×¢ÊÍÄ£°å£©
-	Beautify£¨¸ñÊ½»¯£©
-	Quokka.js£¨µ÷ÊÔ¹¤¾ß£©
-	ESLint£¨×Ô¶¯ĞŞ¸´£©
-	jQuery Code Snippets£¨juqeryÌáÊ¾²å¼ş£©
+	CSS Peekï¼ˆå®šä½CSSï¼‰
+	Document thisï¼ˆjs çš„æ³¨é‡Šæ¨¡æ¿ï¼‰
+	Beautifyï¼ˆæ ¼å¼åŒ–ï¼‰
+	Quokka.jsï¼ˆè°ƒè¯•å·¥å…·ï¼‰
+	ESLintï¼ˆè‡ªåŠ¨ä¿®å¤ï¼‰
+	jQuery Code Snippetsï¼ˆjuqeryæç¤ºæ’ä»¶ï¼‰
 	
 
 
