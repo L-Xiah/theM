@@ -50,6 +50,8 @@ public class Test {
 FastJson对于JSON格式字符串、JSON对象及JavaBean之间的相互转换
 (https://www.cnblogs.com/cdf-opensource-007/p/7106018.html) 
 
+tString = "{***}";
+SendParam param = com.alibaba.fastjson.JSON.parseObject(tString, SendParam.class); // 
  
 JSONObject jsonObject = JSON.parseObject(JSON_OBJ_STR);
 //JSONObject jsonObject1 = JSONObject.parseObject(JSON_OBJ_STR); //因为JSONObject继承了JSON，所以这样也是可以的

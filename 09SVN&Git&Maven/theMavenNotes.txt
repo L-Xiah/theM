@@ -22,3 +22,8 @@ mvn install:install-file -Dfile=sec-base-1.0-SNAPSHOT.jar -DgroupId=com.sec.base
 ####pom中的jdk版本不一致####
 项目中的maven.compiler的版本和jdk版本与IDE的jdk版本不一致会导致不能正常编译；
 有时报的错误挺怪异（VSCode中会出现，尤其现在VSCode必须配JDK11以上，旧项目用的的jdk1.8或jdk1.7）
+
+
+####pom中更新一直报错####
+在本地仓库m2路径中，删除*LastUpdated*文件
+
