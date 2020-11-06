@@ -1,0 +1,45 @@
+﻿
+#### 查看仓库地址 ####
+git remote -v
+
+#### Git lfs ####
+//Git lfs 使用（大附件）//最新的git默认已安装了
+1> git lfs 安装（网上下载[git-lfs.exe]-github上找）
+2> 在git项目中Terminal运行：
+        a)git lfs install(首次使用)
+        b)git lfs track "*.pdf"(pdf文件)
+        c)git add .gitattributes(跟踪大文件)
+        d).....
+3> 提交代码需要将.gitattributes文件提交至仓库. 它保存了文件的追踪记录
+4> 使用 git lfs track 查看现有的文件追踪模式
+5> 使用git lfs ls-files 可以显示当前跟踪的文件列表
+6> 将代码 push 到远程仓库后，LFS 跟踪的文件会以『Git LFS』的形式显示:
+7> clone 时 使用'git clone' 或 git lfs clone均可
+
+
+
+#### .gitignore ####
+//git忽略文件--只能对untracked状态文件有效//
+.gitignore
+内容例如：
+/.idea/
+/part00-common/target/
+/part01-lambda/target/
+
+#### git删除 ####
+//git删除远程仓库文件操作(不删除本地文件)--将文件重置到untracked状态//
+git rm -r --cached .idea（文件夹）/git rm --cached .idea/misc.xml（具体文件）
+git commit -m "delete target/"
+git push origin master
+
+#### git状态 ####
+//git的四种状态(staged):untracked、modified、staged、unmodified
+untracked ->(git add)->staged->(git commit)->unmodified->(git push)->remote
+modified  ->(git add/reset)->staged...
+
+
+#### git配置 ####
+//git命令：全局设置用户名邮箱配置
+git config --list                           //git配置信息
+git config user.name/email                  //查看用户名/邮箱
+git config --global user.name/email "*****" //全局配置用户名/邮箱
