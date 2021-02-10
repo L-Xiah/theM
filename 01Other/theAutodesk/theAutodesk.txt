@@ -16,3 +16,9 @@ maya临时文件
 ####Autodesk软件重装错误####
 需要将Autodesk保存到本地的文件都清除；再重新安装；
 
+
+
+####Autodesk账号管理####
+账号管理网址：manage.autodesk.com
+	在管理页面上指定所购买软件的使用用户；
+使用软件前，需要登入Autodesk管理工具激活软件；

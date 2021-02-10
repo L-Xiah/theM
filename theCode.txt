@@ -5,24 +5,35 @@ Inconsolata×ÖÌå
 Courier New×ÖÌå
 ...
 
-####lib/dllµÈ·´±àÒë####
-Ê¹ÓÃ·´±àÒë¹¤¾ß£»
-Ê¹ÓÃ¶þ½øÖÆ´ò¿ª³ÌÐòÄÜÐÞ¸ÄÒ»Ð©¼òµ¥µÄ³£Á¿¡£
-
-
-####¹¤³Ì¹¹½¨####
-Ã¿¸öº¯Êý¶¼ÒªÐ´×¢ÊÍ/ÎÄµµ£¨Ê±¼äÕ¼±È²»ÉÙ,ÈÎÒâ¿ª·¢ÈËÔ±¶¼ÄÜ¿´¶®£©
-Ã¿¸ö¹¤³ÌÖÆ¶¨Ò»¸öÃüÃû¹æÔò£¨¿ÉÒÔ×Ü½á¸÷¸ö¹¤³ÌÖÐµÄ¹²ÐÔ²¿·Ö£©
-
+####±à³Ì·¶Ê½####
+https://blog.csdn.net/Henzox/article/details/70196599
+ÃüÁîÊ½±à³Ì¡¢½á¹¹»¯±à³Ì¡¢º¯ÊýÊ½±à³Ì¡¢ÃæÏò¹ý³Ì¡¢ÃæÏò¶ÔÏó
 
 ####ÃæÏò¶ÔÏó####
 ÀàµÄ³éÏóÌØÐÔÒªºÃ¡£
-
 ÃæÏòÈý´óÌØÐÔ£º·â×°¡¢¼Ì³Ð¡¢¶àÌ¬¡£
 ·â×°£ºÖ»ÏÔÊ¾¶ÔÍâ½Ó¿Ú£¬½«¾ßÌåÊµÏÖ/ÊôÐÔ·â×°ÔÚÄÚ²¿¡£
 ¼Ì³Ð£º¿É¼Ì³Ð¸¸ÀàµÄ½Ó¿Ú¡¢ÊôÐÔµÈ£¬È»ºóÊµÏÖÀ©Õ¹¡£
 ¶àÌ¬£ºÖØÔØ/ÖØÐ´·½·¨£»¶ÔÏóµÄÏòÉÏ/ÏòÏÂ×ªÐÍ£¨¸¸ÀàÊµÀý×ª×ÓÀàÊµÀý£¬»ò·´Ö®£©¡£
 
+####±à³Ì/£¿####
+Ëã·¨µÄÊ±¼ä¸´ÔÓ¶ÈÓë¿Õ¼ä¸´ÔÓ¶È£»
+³ÌÐòµÄÔËÐÐÊý¾ÝÓë´æ´¢¿Õ¼ä£»
+ÓïÑÔµÄ¿ª·¢Ð§ÂÊÓëÔËÐÐÐ§ÂÊ£»
+
+±à³Ì¿ª·¢¡¢²âÊÔºÍ²¿ÊðÖÐ×Ü»á³öÏÖÐí¶àbug£»ÐèÒª×ÐÏ¸²é¿´±¨´íÐÅÏ¢£¬ÏÈ¶¨Î»´íÎóÇé¿ö£»ÔÙÈ¥ËÑË÷½â¾ö·½°¸£»
+
+####±àÒëÐÍÓïÑÔ/½âÊÍÐÍÓïÑÔ####
+±àÒëÐÍÓïÑÔ£º±àÒëÆ÷½«Ô´´úÂë×ª»»³É»úÆ÷Âë£¬¼´¿ÉÖ´ÐÐ³ÌÐò(.exe³ÌÐò)£»±ÈÈçC¡¢C++¡¢GolangµÈ¡£
+		±àÒëÒ»´Î£¬²»ÒÀÀµ±àÒëÆ÷£¬ÔËÐÐÐ§ÂÊ¸ß£»¿ÉÒÆÖ²ÐÔ²î£¬²»¹»Áé»î¡£
+½âÊÍÐÍÓïÑÔ£º²»Éú³É¿ÉÖ´ÐÐ³ÌÐò£¬Ã¿´ÎÖ´ÐÐÊ±£¬Í¨¹ý½âÊÍÆ÷Ò»±ßÖ´ÐÐÒ»±ß×ª»»£»±ÈÈçPython¡¢PHP¡¢JsµÈ¡£
+		¿çÆ½Ì¨ÐÔºÃ£¬Í¨¹ý²»Í¬Æ½Ì¨µÄ½âÊÍÆ÷£¬½«ÏàÍ¬µÄÔ´´úÂë½âÊÍ³É²»Í¬»úÆ÷Âë£»Ð§ÂÊºÜµÍ¡£
+Java¡¢C#£º½éÓÚÁ½ÕßÖ®¼äµÄ°ë±àÒë°ë½âÊÍÐÍÓïÑÔ£¬Ô´´úÂë×ª»»ÎªÖÐ¼äÎÄ¼þ£¨×Ö½ÚÂë£©£¬½«×Ö½ÚÂëÔÚÐéÄâ»úÖÐÖ´ÐÐ¡£
+		ÓÅÈ±µã½éÓÚÁ½ÕßÖ®¼ä
+
+####lib/dllµÈ·´±àÒë####
+Ê¹ÓÃ·´±àÒë¹¤¾ß£»
+Ê¹ÓÃ¶þ½øÖÆ´ò¿ª³ÌÐòÄÜÐÞ¸ÄÒ»Ð©¼òµ¥µÄ³£Á¿¡£
 
 ####Cookie/Seesion####
 Cookie->ä¯ÀÀÆ÷¿Í»§¶Ë´æ´¢ÓÃ»§ÐÅÏ¢µÈ£¨Cookie¾ßÓÐ²»¿É¿çÓòÃûÐÔÓòÃûÏà¹Ø£©
@@ -50,16 +61,19 @@ callback£º·½·¨µ÷ÓÃÕß¸ø·½·¨´«ÈëÒ»¸öº¯Êý£¬ÔÚ·½·¨ÖÐÖ´ÐÐ£»
 Êý¾ÝµÄ³Ö¾Ã»¯ÊÇÐòÁÐ»¯µÄÒ»¸öµäÐÍÓ¦ÓÃ£¬¶ÔÏóÖ»ÓÐÔÚÐòÁÐ»¯Ö®ºó²ÅÄÜ½øÐÐ³Ö¾Ã»¯´æ´¢£¬´Ó³Ö¾Ã»¯´æ´¢½éÖÊÖÐ¼ÓÔØÊý¾ÝÔÙÍ¨¹ý·´ÐòÁÐ»¯´«³öÔËÐÐÊ±¶ÔÏó¡£
 
 
-####±à³Ì·¶Ê½####
-https://blog.csdn.net/Henzox/article/details/70196599
-ÃüÁîÊ½±à³Ì¡¢½á¹¹»¯±à³Ì¡¢º¯ÊýÊ½±à³Ì¡¢ÃæÏò¹ý³Ì¡¢ÃæÏò¶ÔÏó
+####IaaS/PaaS/SaaS####
+¶¼ÊôÓÚÔÆ¼ÆËã + ·þÎñ£»
+IaaS£¨»ù´¡ÉèÊ©¼´·þÎñ£©£ºÃæÏòÈí¼þ¿ª·¢·½£¬²¿Êð²Ù×÷ÏµÍ³¡¢Ó¦ÓÃÈí¼þµÈ£»---¡·°¢ÀïÔÆ
+PaaS£¨Æ½Ì¨¼´·þÎñ£©£ºÃæÏòÈí¼þ¿ª·¢·½£¬²¿ÊðÓ¦ÓÃÏµÍ³µÈ£¨Ïà¶ÔÓÚIaaSµÄ²Ù×÷×ÔÓÉ¶È¡¢ÄÑ¶ÈµÍµã£©£»---¡·ÌÔ±¦
+SaaS£¨Èí¼þ¼´·þÎñ£©£ºÃæÏòÈí¼þÊ¹ÓÃ·½£¬Í¨¹ýÊ¹ÓÃÔÆ¼ÆËãÆ½Ì¨Ìá¹©µÄ·þÎñ£»---¡·ÌÔ±¦ÉÏµÄÉÌ¼Ò
 
 
-####Î¢·þÎñ####
-RPC£¨Remote Procedure Call Protocol)£¨Ô¶³ÌÍ¨ÐÅÐ­Òé£©-¡µ²»Í¬·þÎñÖ®Ç°Í¨ÐÅ
+####Î¢·þÎñ/·þÎñÍ¨ÐÅ####
+Î¢·þÎñ»¹ÊÇ·Ö²¼Ê½·þÎñ£¨¶¼ÊÇSOA£¬¶¼ÊÇÃæÏò·þÎñ±à³Ì£©£¬¶¼ÃæÁÙ×Å·þÎñ¼äµÄÔ¶³Ìµ÷ÓÃ¡£ÄÇÃ´·þÎñ¼äµÄÔ¶³Ìµ÷ÓÃ·½Ê½ÓÐRPCºÍHTTP£»
 SOA£¨Service-Oriented Architecture£©£¨ÃæÏò·þÎñ¼Ü¹¹£©-¡µÃæÏòÒµÎñ¡¢ËÉñîºÏ
+RPC£¨Remote Procedure Call Protocol)£¨Ô¶³ÌÍ¨ÐÅÐ­Òé£©-¡µ»ùÓÚÔ­ÉúTCP£¬ËÙ¶È¿ì¡¢Ð§ÂÊ¸ß£¬ÐèÒªÊ¹ÓÃÍ³Ò»µÄRPC¿ò¼Ü£»
+HTTP£¨ÍøÂç´«ÊäÐ­Òé£©-¡µ¿Í»§¶Ëä¯ÀÀÆ÷Óë·þÎñÆ÷Ö®¼ä£»»ùÓÚTCP£¬Í¨ÓÃÐÔÇ¿£¬ÏûÏ¢·â×°Ó·Ö×£»
 ESB£¨Enterprise Service Bus£©£¨ÆóÒµ·þÎñ×ÜÏß£©->Á¬½Ó¸÷¸ö·þÎñµãµÄ¹ÜµÀ
-
 Docker-¡µlinuxÈÝÆ÷·â×°[Ó¦ÓÃ³ÌÐò+»·¾³ÅäÖÃ£¨ÒÀÀµ£©-¡µÕý³£ÔËÐÐ£»Docker½«³ÌÐòºÍÒÀÀµ´ø°ü½øÒ»¸öÎÄ¼þ£¬×÷ÓÃÏàµ±ÓÚÒ»¸öÐéÄâ»ú]
 
 
@@ -85,73 +99,21 @@ Docker-¡µlinuxÈÝÆ÷·â×°[Ó¦ÓÃ³ÌÐò+»·¾³ÅäÖÃ£¨ÒÀÀµ£©-¡µÕý³£ÔËÐÐ£»Docker½«³ÌÐòºÍÒÀÀµ´
 
 
 
-####±à³Ì/£¿####
-Ëã·¨µÄÊ±¼ä¸´ÔÓ¶ÈÓë¿Õ¼ä¸´ÔÓ¶È£»
-³ÌÐòµÄÔËÐÐÊý¾ÝÓë´æ´¢¿Õ¼ä£»
-ÓïÑÔµÄ¿ª·¢Ð§ÂÊÓëÔËÐÐÐ§ÂÊ£»
-
-±à³Ì¿ª·¢¡¢²âÊÔºÍ²¿ÊðÖÐ×Ü»á³öÏÖÐí¶àbug£»ÐèÒª×ÐÏ¸²é¿´±¨´íÐÅÏ¢£¬ÏÈ¶¨Î»´íÎóÇé¿ö£»ÔÙÈ¥ËÑË÷½â¾ö·½°¸£»
-
-
-####±àÒëÐÍÓïÑÔ/½âÊÍÐÍÓïÑÔ####
-
-±àÒëÐÍÓïÑÔ£º±àÒëÆ÷½«Ô´´úÂë×ª»»³É»úÆ÷Âë£¬¼´¿ÉÖ´ÐÐ³ÌÐò(.exe³ÌÐò)£»±ÈÈçC¡¢C++¡¢GolangµÈ¡£
-		±àÒëÒ»´Î£¬²»ÒÀÀµ±àÒëÆ÷£¬ÔËÐÐÐ§ÂÊ¸ß£»¿ÉÒÆÖ²ÐÔ²î£¬²»¹»Áé»î¡£
-½âÊÍÐÍÓïÑÔ£º²»Éú³É¿ÉÖ´ÐÐ³ÌÐò£¬Ã¿´ÎÖ´ÐÐÊ±£¬Í¨¹ý½âÊÍÆ÷Ò»±ßÖ´ÐÐÒ»±ß×ª»»£»±ÈÈçPython¡¢PHP¡¢JsµÈ¡£
-		¿çÆ½Ì¨ÐÔºÃ£¬Í¨¹ý²»Í¬Æ½Ì¨µÄ½âÊÍÆ÷£¬½«ÏàÍ¬µÄÔ´´úÂë½âÊÍ³É²»Í¬»úÆ÷Âë£»Ð§ÂÊºÜµÍ¡£
-Java¡¢C#£º½éÓÚÁ½ÕßÖ®¼äµÄ°ë±àÒë°ë½âÊÍÐÍÓïÑÔ£¬Ô´´úÂë×ª»»ÎªÖÐ¼äÎÄ¼þ£¨×Ö½ÚÂë£©£¬½«×Ö½ÚÂëÔÚÐéÄâ»úÖÐÖ´ÐÐ¡£
-		ÓÅÈ±µã½éÓÚÁ½ÕßÖ®¼ä
 
 
 
 
+####¹¤³Ì¹¹½¨####
+Ã¿¸öº¯Êý¶¼ÒªÐ´×¢ÊÍ/ÎÄµµ£¨Ê±¼äÕ¼±È²»ÉÙ,ÈÎÒâ¿ª·¢ÈËÔ±¶¼ÄÜ¿´¶®£©
+Ã¿¸ö¹¤³ÌÖÆ¶¨Ò»¸öÃüÃû¹æÔò£¨¿ÉÒÔ×Ü½á¸÷¸ö¹¤³ÌÖÐµÄ¹²ÐÔ²¿·Ö£©
 
+####×¢ÊÍ/ÎÄµµ####
+×¢ÊÍ£º×¢ÊÍ·ûºÅ + ×¢ÊÍÄÚÈÝ + ¿Õ¸ñ + ±ê¼Ç£¨Xiah£© + ÖÐ»®Ïß + ÈÕÆÚ£»
+eg // **×¢ÊÍÄÚÈÝ** Xiah-20201212
 
 ####±äÁ¿/º¯Êý/ÀàÃüÃû####
-×ÜÌåÔ­Ôò-¡µÍÕ·å·¨¡¢¹æÔòÍ³Ò»¡¢³¤¶ÌºÏÊÊ
-¶ÔÕÌÃüÃû
-add/remove		
-begin/end
-create/destory		
-first/last				
-get/put/set			
-increment/decrement
-insert/delete	
-input/output
-in/out
-left/right
-lock/unlock
-min/max
-next/previous
-old/new
-open/close		
-show/hide
-source/target
-start/stop
-up/down
-
-####ÃüÃû¹æÔò####
-Ò»¡¢±äÁ¿
-1¡µ·¶Î§_ÀàÐÍ_¹¦ÄÜ/³éÏóÎï
-	·¶Î§-¡µ(tempº¯ÊýÄÚ£¬theÈ«¾ÖÐÔ£¬funº¯Êý±äÁ¿)
-	ÀàÐÍ-¡µInt¡¢String¡¢Object¡¢Arr	
-	¹¦ÄÜ-¡µ¶¯´Ê	
-	tempIntIni
-	theStringState
-	funObjectBox
-2¡µÑ­»·±äÁ¿(»ò¾Ö²¿Ê¹ÓÃ)£ºi¡¢j¡¢k¡¢l¡¢m¡¢n
-3¡µBoolean±äÁ¿£ºinitIsTrue¡¢openIsTrue¡¢stateIsTrue
-
-
-¶þ¡¢º¯Êý·½·¨
-1¡µº¯Êý²»ÏÞ¶¨ÔÚÀàÖÐ£º
-	·µ»ØÀàÐÍ + "_" + ¹¦ÄÜ(¶¯´Ê+±öÓï)
-	void_PrintDocument
-2¡µº¯ÊýÔÚÀàÖÐ£º
-	·µ»ØÀàÐÍ + "_" + ¹¦ÄÜ(¶¯´Ê-¡µÀàÎªº¯Êý×÷ÓÃµÄ¶ÔÏó)
-	void_Sum
-
-Èý¡¢Àà
-1¡µ"C/..." + ³éÏóÎï£¨Ãû´Ê£©
-	CHomeController
+×ÜÌåÔ­Ôò-¡µÍÕ·å·¨¡¢¹æÔòÍ³Ò»¡¢³¤¶ÌºÏÊÊ¡¢¶ÔÕÌÃüÃû
+·¶Î§-¡µ(tempº¯ÊýÄÚ£¬theÈ«¾ÖÐÔ£¬funº¯Êý±äÁ¿)
+Ñ­»·±äÁ¿(»ò¾Ö²¿Ê¹ÓÃ)£ºi¡¢j¡¢k¡¢m¡¢n
+Boolean±äÁ¿£ºinitIsTrue¡¢openIsTrue¡¢stateIsTrue
 

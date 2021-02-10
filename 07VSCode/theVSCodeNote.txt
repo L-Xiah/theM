@@ -84,6 +84,7 @@ setting--》Pylint args
 
 通用：
 	koroFileHeader（文件头注释（ctrl+alt+i） 和函数头注释（ctrl+alt+t）工具，一键生成头注释）
+	LOC插件（统计项目行数）
 
 编辑/运行/调试（Java）：
 	Cloudfoundry Manifest YML Support（YML文件编辑器）

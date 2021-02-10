@@ -9,9 +9,15 @@ Error:Authentication plugin 'caching_sha2_password' cannot be loaded
 
 ####group_concat_max_len####
 转到mysql命令行界面
+1、命令设置
 show variables like 'group_concat_max_len';//显示group_concat的最大字符数
 SET GLOBAL group_concat_max_len = 102400;//设置group_concat的最大字符数，需要重新启动mysql
 
+3、永久设置group_concat长度，需要修改my.cnf或my.ini文件，在文件中找到[mysqld] 在后面添加group_concat_max_len=102400，保存之后然后重启mysql即可
+[mysqld]
+...
+group_concat_max_len=102400
+...
 
 ####mysql服务安装####
 1》mysql服务简易版安装教程：
