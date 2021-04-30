@@ -1,0 +1,23 @@
+
+
+
+####mongoDB操作数据库操作####
+# 覆盖3dvoesp中的数据
+mongorestore -h 127.0.0.1 --port 27017 -d 3dvoesp --drop ./data/3dvoesp
+mongorestore -h 10.56.250.190 --port 27017 -d 3dvoesp --drop ./data/3dvoesp
+
+# 备份
+mongodump -h 127.0.0.1:27017 -d 3dvoesp -o ./data
+
+# 导出
+mongoexport -h 127.0.0.1 --port 27017 -d 3dvoesp -c setting -o sss.json
+# 导入
+mongoimport -h 127.0.0.1 --port 27017 -d 3dvoesp -c setting sss.json
+
+
+####mongoDB服务####
+1》启动MongoDB服务：
+	mongod --dbpath c:\data\db
+	mongod --dbpath="data_the" --port 27014
+
+2》mongoDB客户端--"NoSQLBooster for MongoDB"
