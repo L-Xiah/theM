@@ -1,0 +1,69 @@
+
+
+
+####插件开发####
+》manifest.json文件
+
+
+》popup 插件页面部分（每次点击插件图标，都会重新载入）
+
+》content_scripts 注入到web页面的js文件
+
+》background 插件运行环境（插件常驻浏览器后台部分）
+
+
+
+####通信机制####
+
+》content.js 与 background.js和popup.js 通信和 background.js与popup.js  这些通信都用 chrome.runtime.sendMessage 这个方法 
+
+》background.js和popup.js 与 content.js通信 都用 chrome.tabs.sendMessage 方法
+
+》接收消息都是 
+chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
+
+　　alert(JSON.stringify(message)) //这里获取消息
+
+})
+
+
+####注入脚本####
+https://blog.csdn.net/weixin_35958891/article/details/107712677
+
+在content_script 注入的js中，应当注意以下三点
+	content-scripts注入的js和原始页面共享DOM，但是不共享JS，原网页也不能调用content_script里面的方法，只能共享部分window对象
+	content-scripts注入的js代码，需要注意代码执行时机，有可能出现网页加载完成后，js未执行的情况。需要注意run_at属性和定时器的使用
+	content-scripts注入的js代码，只能访问以下四种类型的chrome API
+		chrome.extension(getURL , inIncognitoContext , lastError , onRequest , sendRequest)
+		chrome.i18n
+		chrome.runtime(connect , getManifest , getURL , id , onConnect , onMessage , sendMessage)
+		chrome.storage
+
+针对以上缺陷，可以用以下方法弥补
+content-scripts注入的js和原始页面共享DOM，但是不共享JS
+如果非要访问或者更改原网页的js的值，只能利用动态加载js的方式给原网页加载另外一个js文件，在这个js文件里面去做想要的操作，这个js姑且叫做injected-script
+1.扩展提供了一套机制让我们动态加载js（injected-script）;chrome.extension.getURL(chrome的api)它让我们读取了准备好的js文件，通过动态加载js的方式往原网页中注入
+	// content_script.js 注入js文件到document中
+	function addJs() {
+		var file = chrome.extension.getURL('js/inject/drag.js')
+		console.log(file);
+		var s = document.createElement('script')
+		s.type = 'text/javascript'
+		s.src = file
+		document.documentElement.appendChild(s)
+	}
+	
+	// manifest.json文件
+	"web_accessible_resources": ["js/*"]
+	
+2 也可以使用jquery load()、getScript()函数来加载远程js文件，通过动态加载js的方式注入到原网页中。
+	// content_script.js 注入js文件到document中
+	const theScript = document.createElement('script');
+	theScript.src = 'https://cdn.bootcss.com/jquery/3.2.1/jquery.js';
+	document.body.appendChild(theScript);
+
+
+
+
+
+

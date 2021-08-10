@@ -18,61 +18,43 @@ TASKKILL关闭指定进程(/f /pid ***)
 
 
 ####eclipse常用快捷键####
-eclipse常用快捷键(Idea可以设置使用eclipse快捷键)
-
+eclipse常用快捷键(Idea/VS Code可以设置使用eclipse快捷键)
+第一类常用：
 Ctrl + Z（撤销/回退）
-Ctrl + I（格式化对齐）
-Ctrl + H（全局搜索）
 Ctrl + F（查找）
+Ctrl + H（全局搜索）
+Ctrl + I（格式化对齐）
 Ctrl + D（删除）
-Ctrl + N（右键效果？）
+Alt + D（复制）
 Ctrl + /（行注释）
 
+Alt + ↑↓（上下移动）
+Alt + →←（上次光标位置）
+
+Alt + Shift + R（重命名）
+
+/** + Enter(添加方法注释文档--javadoc文档)
+F2->文件/函数信息
+F3->定位到函数/对象的定义/声明位置
+F8->调试运行到下一个断点
+
+第二类常用
 Ctrl + Shift + /（选中注释）
 Ctrl + Shift + R（查文件）
 Ctrl + Shift + T（查类）
 Ctrl + Shift + B（断点添加/清除）
 
-Alt + F1（定位文件在Project的位置）
-Alt + D（复制）
-Alt + ↑↓（上下移动）
-Alt + →←（上次光标位置）
-Alt + /（提示补充）
-Alt + 0-9（定位不同标签栏，Esc回到文件编辑界面）
-
-Alt + Insert（Generate生成-〉get/set方法、test测试、Override等）
-Alt + Shift + R（重命名）
-Alt + Shift + D（调试运行项目）
-Alt + Shift + X（运行项目）
-Alt + F1（定位到project）
-Alt + F9（Update调试项目，原快捷键Ctrl+F10与右键快捷键冲突，在idea中手动修改）
-Ctrl + 鼠标左键（单击文件标题-〉定位的物理文件）
-Ctrl + F2 （stop项目）
-Ctrl + Alt + K （commit页面）
-
-
-双击鼠标左键（文件编辑的标题）-〉除文件编辑页面的收缩/展开
-Shift+Shift（任意搜索）
-
-/** + Enter(添加方法注释文档--javadoc文档)
-
-F2->文件/函数信息
-F3->定位到函数/对象的定义/声明位置
-F8->调试运行到下一个断点
-
-Idea中容易触发拼音全角(特别要注意全角的空格)
 
 VS Code 快捷键
-Ctrl + 3（命令行）
+Ctrl + Shift + P/Ctrl + 3（命令行）
 Ctrl + ，（setting）
 Ctrl + B（关闭/打开左边栏）
-Alt + Shift + ↑↓（复制）
-Ctrl + Shift + P（命令输入面板）
 Ctrl + Alt + I(注释，需koroFileHeader插件)
 点击打开文件"预览模式"会被覆盖，双击打开新tab
 设置-> keyboard Shortcuts ->自定义快捷键
 已自定义-》Ctrl Alt C（terminal.clear）
 
+Idea中容易触发拼音全角(特别要注意全角的空格)
 
 
 ####Windows快捷键####

@@ -8,15 +8,26 @@
 例<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.40-bin.jar"/>（项目根目录下需要有lib文件夹）
 
 
+同一目录下不同项目之间的相互引用：
+》maven打包或测试会出现一致性问题，即目录下有项目A、项目B，A引用了B，假如出现打包A时报错（与引用B有关的奇怪错误），可能是因为项目B源码的修改未发布到maven仓储中，而引用B的项目A会出现这种比较奇怪的错误；可通过maven install 将项目B发布到仓库，保持源码和仓库jar包一致性；
+
+
+
 ####Maven项目Jar包打包发布####
 左面板 -》 EXPLORER -》MAVEN PROJECTS -》项目右键-》
 package（打包到target）
 install（发布到maven仓库）
-
+test（测试项目）
 
 ####pom.xml文件自动导入管理####
 自动更新jar包
 右键pom-》update project configuration（Shift Alt U）
+
+
+####版本管理####
+
+SVN
+	TortoiseSVN
 
 
 ####Settings配置####

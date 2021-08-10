@@ -33,15 +33,6 @@ Maven 聚合工程
 
 
 
-
-
-####Maven仓库####
-（https://blog.csdn.net/win7system/article/details/51260282）
-http://repo1.maven.org/maven2
-http://maven.aliyun.com/nexus/content/groups/public/  阿里云
-
-
-
 ####Maven安装Jar包到仓库####
 file=sec-base-1.0-SNAPSHOT.jar
 groupId=com.sec.base
@@ -85,4 +76,14 @@ Maven打jar包包含源代码
 
 ####pom中更新一直报错####
 在本地仓库m2路径中，删除*LastUpdated*文件
+
+
+####mvn package####
+1》spring-boot-maven-plugin问题
+	pom文件中确定版本号；
+
+####mvn repositories####
+1》maven报错
+	配置了<repositories>、<pluginRepositories>属性
+
 
